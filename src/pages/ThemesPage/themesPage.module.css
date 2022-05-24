@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.dark_theme,
+.light_theme,
+.blue_theme {
+    width: 200px;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.dark_theme {
+    border: 3px solid rgb(25, 25, 25);
+    background-color: rgb(111, 103, 120);
+    color: rgb(209, 187, 46);
+}
+
+.light_theme {
+    border: 3px solid rgb(206, 240, 227);
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 10, 10);
+}
+
+.blue_theme {
+    border: 3px solid rgb(34, 22, 105);
+    background-color: rgb(41, 67, 153);
+    color: rgb(201, 201, 201);
+}
